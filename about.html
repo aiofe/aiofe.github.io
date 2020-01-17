@@ -1,8 +1,7 @@
 ---
 layout: page
-title: "About"
-description: "Hey, this is BY."
-header-img: "img/post-bg-rwd.jpg"
+title: "ABOUT"
+header-img: "img/bg-about.jpeg"
 ---
 
 <!-- Language Selector -->
@@ -15,25 +14,45 @@ header-img: "img/post-bg-rwd.jpg"
 <div class="zh post-container">
 
     <!--copied from markdown -->
-    <blockquote><p>冰冻三尺 非一日之寒<br>
-    积土成山 非斯须之作</p></blockquote>
+    <blockquote><p>有朋自远方来，不亦乐乎<br>人不知而不愠，不亦君子乎</p></blockquote>
 
-    <p>Hey，我是<strong>柏荧(BY)</strong>，一只iOS程序猿，现在厦门工作。</p>
+    <p>Hey，我们是AIOFE团队，一个活跃在村里的前端（全栈）团队。</p>
 
-    <p>工作、学习之余，我还是一个健身爱好者，同时也非常喜欢拳击。</p>
-
-    <p>这是我的利用 <a href="https://pages.github.com/">GitHub Pages</a> 与 <a href="http://jekyll.com.cn/">Jekyll</a> 搭建的 个人博客。我在GitHub主页<a href="https://github.com/qiubaiying">👉GitHub·BY</a> 与 简书主页<a href="https://http://www.jianshu.com/u/e71990ada2fd">👉BY</a>。如果有什么问题，欢迎提出探讨~</p>
-
-    <p></p>
-    
-    <h5>Talks</h5>
-
-    <ul>
-        <li><a href="https://github.com">GitHub</a></li>
-        <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-        <li><a href="http://huangxuan.me/">Hux</a></li> 
-        <li><a href="https://analytics.google.com/analytics">Google Analytics</a></li>
-    </ul>
+    <div class='AvatarBlock'>
+        <img class='Avatar' src="/img/selfie-zhangping.jpeg">
+        <p>张平</p>
+        <p class='Note'>山穷水尽疑无路，柳暗花明又一村</p>
+    </div>
+    <div class='AvatarBlock'>
+        <img class='Avatar' src="/img/selfie-wuhao.jpeg">
+        <p>吴豪</p>
+        <p class='Note'>山穷水尽疑无路，柳暗花明又一村</p>
+    </div>
+    <div class='AvatarBlock'>
+        <img class='Avatar' src="/img/selfie-shenshihao.jpeg">
+        <p>申世浩</p>
+        <p class='Note'>山穷水尽疑无路，柳暗花明又一村</p>
+    </div>
+    <div class='AvatarBlock'>
+        <img class='Avatar' src="/img/selfie-likaiya.jpeg">
+        <p>李凯亚</p>
+        <p class='Note'>山穷水尽疑无路，柳暗花明又一村</p>
+    </div>
+    <div class='AvatarBlock'>
+        <img class='Avatar' src="/img/selfie-lihuanqing.jpeg">
+        <p>李焕晴</p>
+        <p class='Note'>山穷水尽疑无路，柳暗花明又一村</p>
+    </div>
+    <div class='AvatarBlock'>
+        <img class='Avatar' src="/img/selfie-huheting.jpeg">
+        <p>胡鹤婷</p>
+        <p class='Note'>山穷水尽疑无路，柳暗花明又一村</p>
+    </div>
+    <div class='AvatarBlock'>
+        <img class='Avatar' src="/img/selfie-handong.jpeg">
+        <p>韩冬</p>
+        <p class='Note'>山穷水尽疑无路，柳暗花明又一村</p>
+    </div>
 </div>
 
 <!-- English Version -->
@@ -96,6 +115,34 @@ header-img: "img/post-bg-rwd.jpg"
     // init
     _render();
 </script>
+
+<style>
+.AvatarBlock{
+    display: inline-block;
+    width: 218px;
+    text-align: center
+}
+.Avatar{
+    width: 128px;
+    height: 128px;
+    border-radius: 64px;
+}
+.Avatar:hover{
+    animation: swing ease-in-out 1s infinite alternate
+}
+.AvatarBlock p {
+    margin-bottom: 8px;
+}
+.Note{
+    margin-top: 0;
+    font-size: 13px;
+    color: #999;
+}
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+</style>
 
 
 <!-- Gitalk 评论 start  -->
