@@ -1,17 +1,16 @@
 # Site settings
-title: BY Blog
-SEOTitle: Aiofe的博客 | BY Blog
-header-img: img/post-bg-desk.jpg
+title: AIOFE
+SEOTitle: AIOFE的博客 | AIOFE's BLOG
+header-img: img/bg-index.jpeg
 email:
-description: "Stay hungry Stay foolish."
-keyword: "BY, BY Blog, Aiofe的博客, handong, lihuanqing， zhangping, wuhao, shenshihao, huheting"
-url: "https://aiofe.github.io/"          # your host, for absolute URL
+keyword: "AIOFE的博客, handong, lihuanqing, zhangping, wuhao, shenshihao, huheting"
+url: "https://www.aiofe.com/"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/aiofe/aiofe.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "When the night is darkest, dawn is nearest.!"
+sidebar-about-description: "头条广告优化前端团队"
 sidebar-avatar: /img/apple-touch-icon.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -19,11 +18,11 @@ sidebar-avatar: /img/apple-touch-icon.png      # use absolute URL, seeing it's u
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:    winterland
-github_username:    winterland
-facebook_username:  winterland
-jianshu_username:   winterland
-#twitter_username:   qiubaiying
+# zhihu_username:    winterland
+# github_username:    winterland
+# facebook_username:  winterland
+# jianshu_username:   winterland
+# twitter_username:   qiubaiying
 
 
 
@@ -34,6 +33,7 @@ permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+plugins: [jekyll-paginate]
 
 
 
@@ -62,12 +62,12 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
+  clientID: 1f6ebaa1f28d88a5ed9c                            #生成的clientID
+  clientSecret: 3bce4a6e290073dbcd8755f4635117a217083f00    #生成的clientSecret
   repo: aiofe.github.io    #仓库名称
-  owner: winterland   #github用户名
-  admin: winterland
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  owner: aiofe   #github用户名
+  admin: winterland1989
+  distractionFreeMode: false #是否启用类似FB的阴影遮罩
 
 
 # 统计
@@ -77,8 +77,8 @@ gitalk:
 ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
-ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_track_id: 'UA-45991394-3'            # Format: UA-xxxxxx-xx
+ga_domain: www.aiofe.com               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
