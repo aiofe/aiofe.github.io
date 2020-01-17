@@ -64,7 +64,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 1f6ebaa1f28d88a5ed9c                            #生成的clientID
   clientSecret: 3bce4a6e290073dbcd8755f4635117a217083f00    #生成的clientSecret
-  repo: aiofe/aiofe.github.io    #仓库名称
+  repo: aiofe.github.io    #仓库名称
   owner: aiofe   #github用户名
   admin: winterland1989
   distractionFreeMode: false #是否启用类似FB的阴影遮罩
